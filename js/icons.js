@@ -1,0 +1,88 @@
+/* Agora – Icon-Set (Linien-Icons, 24×24, currentColor) */
+window.AG = window.AG || {};
+
+AG.ICONS = {
+  /* Oberfläche */
+  arrowRight: '<path d="M5 12h14M13 6l6 6-6 6"/>',
+  arrowLeft: '<path d="M19 12H5M11 6l-6 6 6 6"/>',
+  search: '<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>',
+  download: '<path d="M12 3v12M7 10l5 5 5-5M5 21h14"/>',
+  share: '<circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/>',
+  link: '<path d="M10 14a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 10a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/>',
+  image: '<rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="m21 15-5-5L5 21"/>',
+  printer: '<path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M6 14h12v7H6z"/>',
+  check: '<path d="m5 12 5 5L20 7"/>',
+  x: '<path d="M6 6l12 12M18 6 6 18"/>',
+  info: '<circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/>',
+  chevronDown: '<path d="m6 9 6 6 6-6"/>',
+  chevronRight: '<path d="m9 6 6 6-6 6"/>',
+  starLine: '<path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/>',
+  refresh: '<path d="M20 11a8 8 0 1 0-2.3 5.7M20 4v7h-7"/>',
+  edit: '<path d="M4 20h4L19 9l-4-4L4 16z"/><path d="m13 7 4 4"/>',
+  copy: '<rect x="8" y="8" width="13" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/>',
+  menu: '<path d="M4 7h16M4 12h16M4 17h16"/>',
+  sparkles: '<path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/>',
+  json: '<path d="M8 4c-2 0-2 1-2 3s0 3-2 5c2 2 2 3 2 5s0 3 2 3M16 4c2 0 2 1 2 3s0 3 2 5c-2 2-2 3-2 5s0 3-2 3"/>',
+  clock: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+  layers: '<path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/>',
+  users: '<circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="17" cy="9" r="2.5"/><path d="M16 14.5a5 5 0 0 1 5.5 5"/>',
+  map: '<path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3z"/><path d="M9 3v15M15 6v15"/>',
+  hourglass: '<path d="M6 3h12M6 21h12M7 3c0 5 10 5 10 9s-10 4-10 9M17 3c0 5-10 5-10 9s10 4 10 9"/>',
+  scroll: '<path d="M8 3h11v15a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3v-2h11v2a3 3 0 0 0 3 3"/><path d="M8 3a3 3 0 0 0-3 3v10M11 8h5M11 12h5"/>',
+  lock: '<rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/>',
+  heart: '<path d="M12 20s-7-4.4-9-9.2C1.6 7.4 4 4 7.3 4c2 0 3.4 1.1 4.7 2.7C13.3 5.1 14.7 4 16.7 4 20 4 22.4 7.4 21 10.8 19 15.6 12 20 12 20z"/>',
+
+  /* Achsen */
+  people: '<circle cx="8" cy="8" r="3"/><circle cx="16" cy="8" r="3"/><path d="M2 20a6 6 0 0 1 12 0M10 20a6 6 0 0 1 12 0"/>',
+  chart: '<path d="M3 20h18"/><path d="m5 16 4-5 4 3 6-8"/><path d="M15 6h4v4"/>',
+  feather: '<path d="M20 4c-6 0-12 4-13 13l-3 3"/><path d="M20 4c0 7-5 12-13 13M14 10H9M17 7h-5"/>',
+  shield: '<path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/>',
+  stars: '<circle cx="12" cy="4.5" r="1.1"/><circle cx="17.3" cy="6.7" r="1.1"/><circle cx="19.5" cy="12" r="1.1"/><circle cx="17.3" cy="17.3" r="1.1"/><circle cx="12" cy="19.5" r="1.1"/><circle cx="6.7" cy="17.3" r="1.1"/><circle cx="4.5" cy="12" r="1.1"/><circle cx="6.7" cy="6.7" r="1.1"/>',
+  flag: '<path d="M5 21V4"/><path d="M5 4h11l-2 4 2 4H5"/>',
+  spark: '<path d="M12 2v5M12 17v5M2 12h5M17 12h5M5 5l3 3M16 16l3 3M19 5l-3 3M8 16l-3 3"/>',
+  home: '<path d="m3 11 9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/>',
+  globe: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/>',
+  castle: '<path d="M4 21V9h3V6h2v3h2V6h2v3h2V6h2v3h3v12z"/><path d="M10 21v-5h4v5"/>',
+  door: '<path d="M6 21V4h9l3 2v15"/><path d="M3 21h18M13 12h.5"/>',
+  wall: '<rect x="3" y="5" width="18" height="14" rx="1"/><path d="M3 10h18M3 15h18M9 5v5M15 10v5M9 15v4"/>',
+  leaf: '<path d="M5 20c0-9 6-15 15-15 0 9-6 15-15 15z"/><path d="M5 20 14 11"/>',
+  factory: '<path d="M3 21V11l5 3v-3l5 3v-3l5 3V4h3v17z"/><path d="M7 17h2M12 17h2"/>',
+  atom: '<circle cx="12" cy="12" r="1.5"/><ellipse cx="12" cy="12" rx="9" ry="3.8"/><ellipse cx="12" cy="12" rx="9" ry="3.8" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="9" ry="3.8" transform="rotate(120 12 12)"/>',
+  cross: '<path d="M12 3v18M7 8h10"/>',
+  anchor: '<circle cx="12" cy="5" r="2"/><path d="M12 7v14M8 11h8M4 14a8 8 0 0 0 16 0"/>',
+  compass: '<circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/>',
+  target: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2"/>',
+  nodes: '<circle cx="12" cy="5" r="2"/><circle cx="5" cy="18" r="2"/><circle cx="19" cy="18" r="2"/><circle cx="12" cy="13" r="2"/><path d="M12 7v4M10.5 14.5l-4 2.5M13.5 14.5l4 2.5"/>',
+  hands: '<path d="M7 11V6a1.5 1.5 0 0 1 3 0v5M10 10V4.5a1.5 1.5 0 0 1 3 0V10M13 10V5.5a1.5 1.5 0 0 1 3 0V12M16 9a1.5 1.5 0 0 1 3 0v4a8 8 0 0 1-8 8h-1a6 6 0 0 1-5-3l-2.5-4a1.5 1.5 0 0 1 2.6-1.5L7 15"/>',
+  pillar: '<path d="M3 21h18M5 18h14M12 3 3 8h18z"/><path d="M6 8v10M10 8v10M14 8v10M18 8v10"/>',
+  bolt: '<path d="M13 2 4 14h7l-1 8 9-12h-7z"/>',
+  steps: '<path d="M3 20h5v-5h5v-5h5V5h3"/>',
+
+  /* Ideologie-Symbole */
+  star: '<path d="m12 2.5 2.9 6 6.6.8-4.9 4.6 1.3 6.5L12 17.1l-5.9 3.3 1.3-6.5-4.9-4.6 6.6-.8z"/>',
+  fist: '<path d="M7 11V7.5a1.5 1.5 0 0 1 3 0V11M10 10V6.5a1.5 1.5 0 0 1 3 0V10M13 10V7a1.5 1.5 0 0 1 3 0v4"/><path d="M16 9a1.5 1.5 0 0 1 3 0v4c0 4-3 6-6 6v3H9v-3c-2-1-3-3-3-5v-2.5a1.5 1.5 0 0 1 3 0"/>',
+  rose: '<path d="M12 12c-3 0-5-2-5-5 2 0 3 .5 3.5 1.5C11 6 12 4 12 4s1 2 1.5 4.5C14 7.5 15 7 17 7c0 3-2 5-5 5z"/><path d="M12 12v9M12 17c-2 0-4-1-5-3M12 15c2 0 3.5-1 4.5-2.5"/>',
+  fire: '<path d="M12 22c4 0 7-3 7-7 0-5-4-7-5-11-2 2-3 4-3 6-1-1-2-2-2-4-2 2-4 5-4 9 0 4 3 7 7 7z"/>',
+  wheat: '<path d="M12 22V8"/><path d="M12 8c-2-1-3-3-3-5 2 0 3 1 3 3M12 8c2-1 3-3 3-5-2 0-3 1-3 3"/><path d="M12 13c-2-1-4-2-4-5 2 0 4 1 4 3M12 13c2-1 4-2 4-5-2 0-4 1-4 3M12 18c-2-1-4-2-4-5 2 0 4 1 4 3M12 18c2-1 4-2 4-5-2 0-4 1-4 3"/>',
+  gear: '<circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9 7 7M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/><circle cx="12" cy="12" r="7"/>',
+  dove: '<path d="M3 14c3 0 5-2 6-5 1 4 4 6 9 6l3-2-3-1c0-4-3-7-7-7 0 3 1 5 2 6"/><path d="M3 14c2 4 6 6 11 5"/>',
+  mountain: '<path d="m2 20 7-12 4 6 3-4 6 10z"/><path d="m7.5 11 1.5 1.5 1.5-1.5"/>',
+  oak: '<path d="M12 21v-7"/><path d="M12 14c-4 0-7-2-7-5 0-2 1.5-3 3-3 0-2 2-3.5 4-3.5s4 1.5 4 3.5c1.5 0 3 1 3 3 0 3-3 5-7 5z"/>',
+  torch: '<path d="M10 12h4l-1 10h-2z"/><path d="M8 9h8l-1 3H9z"/><path d="M12 2c2 2 3 3.5 2 6h-4c-1-2.5 0-4 2-6z"/>',
+  scales: '<path d="M12 3v18M8 21h8M4 7h16"/><path d="M4 7 1.5 13a3 3 0 0 0 5 0zM20 7l-2.5 6a3 3 0 0 0 5 0z"/>',
+  crown: '<path d="M3 18h18M4 18 3 7l5 4 4-6 4 6 5-4-1 11"/>',
+  eagle: '<path d="M12 6c1-2 3-2 3-2l-1 2.5 1.5 1L12 9 8.5 7.5 10 6.5 9 4s2 0 3 2z"/><path d="M12 9v9M12 11c-3-2-6-2-9-1 2 2 5 3 9 3M12 11c3-2 6-2 9-1-2 2-5 3-9 3M10 21l2-3 2 3"/>',
+  megaphone: '<path d="M3 10v4h4l9 5V5L7 10z"/><path d="M19 9a4 4 0 0 1 0 6M7 14l1 5h3l-1-4"/>',
+  book: '<path d="M4 4h6a3 3 0 0 1 2 1 3 3 0 0 1 2-1h6v15h-6a3 3 0 0 0-2 1 3 3 0 0 0-2-1H4z"/><path d="M12 5v15"/>',
+  fasces: '<path d="M9 3h6v15H9zM12 3v15M10 21h4M15 6l4-2v5l-4 1"/>',
+  moon: '<path d="M20 15A8 8 0 1 1 9 4a7 7 0 0 0 11 11z"/>',
+  sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
+  coin: '<circle cx="12" cy="12" r="9"/><path d="M15 9.5c-.5-1-1.6-1.5-3-1.5-1.7 0-3 .9-3 2s1.3 1.7 3 2 3 .9 3 2-1.3 2-3 2c-1.4 0-2.5-.5-3-1.5M12 6v2M12 16v2"/>',
+  tower: '<path d="M7 21V8l5-5 5 5v13"/><path d="M4 21h16M10 21v-5h4v5M10 10h4"/>',
+  anarchy: '<circle cx="12" cy="12" r="9"/><path d="m6 19 6-15 6 15M8 14h8"/>'
+};
+
+AG.icon = function (name, cls) {
+  const p = AG.ICONS[name] || AG.ICONS.info;
+  return `<svg class="ico ${cls || ''}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${p}</svg>`;
+};

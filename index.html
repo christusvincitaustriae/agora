@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agora – Der europäische Politiktest</title>
+  <meta name="description" content="Der europäische Politiktest auf 12 Achsen: Finde deine Ideologie, die passende Partei in deinem Land, Politiker, heutige und historische Staaten.">
+  <meta name="theme-color" content="#0a0d13">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Crect width='30' height='30' rx='8' fill='%230a0d13'/%3E%3Ccircle cx='15' cy='15' r='9' fill='none' stroke='%23e7c46b' stroke-width='2' stroke-dasharray='2 3.2'/%3E%3Ccircle cx='15' cy='15' r='3' fill='%23e7c46b'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="backdrop" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="#/" aria-label="Agora – Startseite">
+        <svg class="brand-mark" id="brandMark" viewBox="0 0 30 30" aria-hidden="true"></svg>
+        <span>Agora<small>Politiktest Europa</small></span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#/#modes" data-nav="test">Test</a>
+        <a href="#/entdecken/ideologien" data-nav="entdecken">Entdecken</a>
+        <a href="#/vergleich" data-nav="vergleich">Vergleichen</a>
+        <a href="#/methodik" data-nav="methodik">Methodik</a>
+      </nav>
+      <div class="spacer"></div>
+      <button class="country-btn" id="countryBtn" aria-label="Land wählen"></button>
+      <a class="btn btn-gold btn-sm btn-start" id="startBtn" href="#/#modes">Test starten</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Menü"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </header>
+
+  <main id="main"></main>
+
+  <footer>
+    <div class="wrap">
+      <div><b style="font-family:var(--serif);font-size:18px;color:var(--text)">Agora</b><br>Der europäische Politiktest auf 12 Achsen.<br>Unabhängig · kostenlos · ohne Tracking.</div>
+      <div class="links">
+        <a href="#/entdecken/ideologien">Ideologien</a>
+        <a href="#/entdecken/personen">Personen</a>
+        <a href="#/entdecken/parteien">Parteien</a>
+        <a href="#/entdecken/staaten">Staaten</a>
+        <a href="#/entdecken/geschichte">Geschichte</a>
+        <a href="#/methodik">Methodik & Datenschutz</a>
+      </div>
+      <div style="max-width:360px">Bilder: Wikimedia Commons / Wikipedia, Rechte bei den jeweiligen Urhebern. Profile sind redaktionelle Einschätzungen und keine Wahlempfehlung.</div>
+    </div>
+  </footer>
+
+  <!-- Daten -->
+  <script src="js/data/axes.js"></script>
+  <script src="js/data/questions.js"></script>
+  <script src="js/data/ideologies.js"></script>
+  <script src="js/data/persons-current.js"></script>
+  <script src="js/data/persons-historic.js"></script>
+  <script src="js/data/parties.js"></script>
+  <script src="js/data/states.js"></script>
+  <script src="js/data/media.js"></script>
+  <!-- Logik & Oberfläche -->
+  <script src="js/engine.js"></script>
+  <script src="js/icons.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/export.js"></script>
+  <script src="js/views/home.js"></script>
+  <script src="js/views/quiz.js"></script>
+  <script src="js/views/results.js"></script>
+  <script src="js/views/explore.js"></script>
+  <script src="js/views/compare.js"></script>
+  <script src="js/views/method.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
